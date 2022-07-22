@@ -11,8 +11,7 @@ const DisplayTable = (props) => {
     }
 
     return (
-        <fieldset>
-            <legend>DisplayTable.jsx</legend>
+        <>
             <table>
                 <thead>
                     <tr>
@@ -36,7 +35,7 @@ const DisplayTable = (props) => {
                     }
                 </tbody>
             </table>
-        </fieldset>
+        </>
     )
 }
 

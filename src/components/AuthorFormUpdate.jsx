@@ -42,8 +42,7 @@ const AuthorFormUpdate = () => {
     }
 
     return (
-        <fieldset>
-            <legend>AuthorFormUpdate.jsx</legend>
+        <>
             <form onSubmit={handleSubmit}>
                 <div>
                 <label>Name :</label>
@@ -53,7 +52,7 @@ const AuthorFormUpdate = () => {
                 <button type="submit"> Submit</button>
                 <Link to ="/" > <button type="submit"> Cancel</button> </Link> 
             </form>
-        </fieldset>
+        </>
     )
 }
 

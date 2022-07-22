@@ -5,11 +5,10 @@ import AurthorForm from '../components/AuthorForm'
 const CreatePage = () => {
 
     return (
-        <fieldset>
-            <legend>CreatePage.jsx</legend>
+        <>
             <Link to={"/"}>Home</Link>
             <AurthorForm/>
-        </fieldset>
+        </>
     )
 }
 

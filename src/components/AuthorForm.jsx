@@ -29,8 +29,7 @@ const AurthorForm = () => {
     }
 
     return (
-        <fieldset>
-            <legend>CreateFromRedirect.jsx</legend>
+        <>
             <form onSubmit={handleSubmit}>
                 <div>
                 <label>Name :</label>
@@ -40,7 +39,7 @@ const AurthorForm = () => {
                 <button type="submit"> Submit</button>
                 <Link to ="/" > <button type="submit"> Cancel</button> </Link> 
             </form>
-        </fieldset>
+        </>
     )
 }
 

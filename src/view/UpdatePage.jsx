@@ -3,10 +3,9 @@ import AuthorFormUpdate from '../components/AuthorFormUpdate'
 
 const UpdatePage = () => {
     return (
-        <fieldset>
-            <legend>UpdatePage.jsx</legend>
+        <>
             <AuthorFormUpdate/>
-        </fieldset>
+        </>
     )
 }
 

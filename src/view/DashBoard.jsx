@@ -25,12 +25,11 @@ const DashBoard = () => {
 
 
     return (
-        <fieldset>
-            <legend>DashBoard.jsx</legend>
+        <>
             <Link to={"/new"}>Add an author</Link>
             <p>We have qoutes by:</p>
             <DisplayTable authorList={authorList} updateList={refreshList} />
-        </fieldset>
+        </>
     )
 }
 
